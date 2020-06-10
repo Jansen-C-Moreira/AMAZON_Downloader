@@ -59,7 +59,7 @@ class   AMZBot():
         time.sleep(1)
         store = StoreBooks()
         while True:
-            for n in range(1,1000):
+            for n in range(1,10000):
 
                 try:
                     clicar = driver.find_element_by_id('a-autoid-'+str(n)+'-announce').send_keys(Keys.SHIFT + Keys.CONTROL + Keys.ENTER)
