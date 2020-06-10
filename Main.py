@@ -62,27 +62,15 @@ class   AMZBot():
             for n in range(1,1000):
 
                 try:
-                   try:
-                       clicar = driver.find_element_by_id('a-autoid-'+str(n)+'-announce').send_keys(Keys.SHIFT + Keys.CONTROL + Keys.ENTER)
-                       store.caughtbooks += 1
-                       print("Livro Pego({})".format(store.caughtbooks))
-                       time.sleep(0.5)
-                       driver.switch_to_window(driver.window_handles[-1])
-                       time.sleep(1)
-                       driver.close()
-                       driver.switch_to_window(driver.window_handles[0])
-                       time.sleep(1)
-                   except Exception as error:
-                       clicar = driver.find_element_by_class_name('a-button-text').send_keys(Keys.SHIFT + Keys.CONTROL + Keys.ENTER)
-                       store.caughtbooks += 1
-                       print("Livro Pego({})".format(store.caughtbooks))
-                       time.sleep(0.5)
-                       driver.switch_to_window(driver.window_handles[-1])
-                       time.sleep(1)
-                       driver.close()
-                       driver.switch_to_window(driver.window_handles[0])
-                       time.sleep(1)
-                       print(error)
+                    clicar = driver.find_element_by_id('a-autoid-'+str(n)+'-announce').send_keys(Keys.SHIFT + Keys.CONTROL + Keys.ENTER)
+                    store.caughtbooks += 1
+                    print("Livro Pego({})".format(store.caughtbooks))
+                    time.sleep(0.5)
+                    driver.switch_to_window(driver.window_handles[-1])
+                    time.sleep(1)
+                    driver.close()
+                    driver.switch_to_window(driver.window_handles[0])
+                    time.sleep(1)
                 except Exception as error:
                     #print("----")
                     pass
@@ -202,8 +190,6 @@ class Window1():
 
 if __name__ == '__main__':
     main()
-
-
 
 
 
