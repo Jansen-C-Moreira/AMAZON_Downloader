@@ -7,6 +7,6 @@ After seeing that Amazon is giving for free more than 50k of books I decided to 
 Fisrt#
 To use this bot you need to put your Amazom's username and password, after that, select a languagem, or a custom URL that you can get for yourself and put in the correct field
 Second#
-The bot will keep trying getting the books eventhough theres no more to get, because it doesn't know that, so you have to pay attention on that.
+The bot will keep trying getting the books eventhough theres no more to get, because it doesn't know that, so you have to pay attention.
 
 I hope you like the code, see you, bye =)
