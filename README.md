@@ -1,4 +1,6 @@
 # AMAZON_Downloader
+(MADE A LONG TIME AGO)
+//obs.: This project is out to date. It was developed almoust 3 years ago. 
 Bot designed to obtain all the books the amazon is giving for free.
 
 
